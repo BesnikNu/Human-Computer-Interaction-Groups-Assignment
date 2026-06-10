@@ -6,7 +6,7 @@ export default function App () {
         <header class="headerspec">
             <img class="hederimg" src="../assets/logoLM.png"/>
             <Theme />
-            <UserLogState />
+            <UserLogState class="headerbutton"/>
         </header>
     );
 }
