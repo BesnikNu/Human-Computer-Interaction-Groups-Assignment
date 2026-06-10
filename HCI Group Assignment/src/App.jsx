@@ -4,7 +4,7 @@ import UserLogState from "components/UserLogState.jsx";
 export default function App () {
     return (
         <header class="headerspec">
-            <img src="../assets/logoLM.png"/>
+            <img class="hederimg" src="../assets/logoLM.png"/>
             <Theme />
             <UserLogState />
         </header>
