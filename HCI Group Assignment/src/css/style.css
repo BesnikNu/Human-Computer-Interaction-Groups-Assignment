@@ -8,6 +8,10 @@
   background-color: #0c2b4e;
 }
 
+.flex {
+  display: flex;
+}
+
 /*Header έχει γίνει και αλλάγη στo width της κλάσης .root στο αρχειο index.css*/
 .headerspec {
   background-color: #1d546c;
@@ -46,10 +50,6 @@
 .containerstyle {
   width: 1200px;
   margin: auto;
-}
-
-.flex {
-  display: flex;
 }
 
 .movie {
