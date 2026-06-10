@@ -1,19 +1,17 @@
-import usestate from "react";
+import {useState} from "react";
 
-function changeLogState () {
-    const [logState, setLogState] = usestate("Log In");
+export default function changeLogState () {
+    const [logState, setLogState] = useState("Log In");
 
     const handleChange = () => {
-        setTheme(theme == "Log In" ? "Log Out" : "Log In");
+        setLogState(logState == "Log In" ? "Log Out" : "Log In");
     };
 
     return (
-        <button onClick=(handleChange)>
-            <p>${theme}</p>
+        <button className="colorationButton" onClick={handleChange}>
+            <p>{logState}</p>
         </button>
     );
     
     
 }
-
-export default UserLogState;

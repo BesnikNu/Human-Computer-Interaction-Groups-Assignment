@@ -1,18 +1,16 @@
-import use state from "react";
+import {useState} from "react";
 
-function changeTheme () {
-    const [theme, setTheme] = usestate("moon");
+export default function changeTheme () {
+    const [theme, setTheme] = useState("moon.png");
 
     const handleChange = () => {
-        setTheme(theme == "moon" ? "sun" : "moon");
+        setTheme(theme == "moon.png" ? "sun.png" : "moon.png");
     };
 
     return (
-        <button onClick=(handleChange)>
-            <img src="..assets/${theme}.png"/>
+        <button className="colorationButton" onClick={handleChange}>
+            <img src={`src/assets/${theme}`} />
         </button>
     );
     
 }
-
-export default Theme;
