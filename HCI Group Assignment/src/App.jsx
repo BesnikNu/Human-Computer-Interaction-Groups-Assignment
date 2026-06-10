@@ -17,11 +17,22 @@ export default function App () {
               <UserLogState className="fonts" className="headerbutton" />
             </div>
           </div>
-          
         </header>
         <div>
-          <Movies movies={movies} />
-          <Movies movies={movies} />
+          <div>
+            <select>
+              <option selected>All</option>
+              <option>Action</option>
+              <option>Comedy</option>
+              <option>Horor</option>
+              <option>Adventure</option>
+              <option>Sci-Fi</option>
+            </select>
+          </div>
+          <div>
+            <Movies movies={movies} />
+            <Movies movies={movies} />
+          </div>
         </div>
       </>
     );
