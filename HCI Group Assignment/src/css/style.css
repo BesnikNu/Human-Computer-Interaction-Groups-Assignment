@@ -27,12 +27,25 @@
   float: left;
 }
 
+/*κουμπια*/
+.hbuttonin {
+  border: none;
+  background-color: #1a3d64;
+}
+
+.logbtnmargin {
+  margin-top: 4%;
+}
+
+.loginbtn {
+  margin-top: 3%;
+}
+
 .headerbutton {
   background-color: #1a3d64;
   margin-left: 75%;
   height: 40%;
   width: 100px;
-  border: none;
   margin-top: 1.7%;
 }
 
