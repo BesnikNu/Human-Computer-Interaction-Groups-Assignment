@@ -9,8 +9,8 @@ export default function changeTheme () {
 
     return (
         <button className="hbuttonin" onClick={handleChange}>
-      <img src={`src/assets/${theme}`} />
-    </button>
+          <img src={`src/assets/${theme}`} />
+        </button>
     );
     
 }
