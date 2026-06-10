@@ -8,7 +8,7 @@ export default function changeLogState () {
     };
 
     return (
-        <button className="colorationButton" onClick={handleChange}>
+        <button className="hbuttonin" onClick={handleChange}>
             <p>{logState}</p>
         </button>
     );
