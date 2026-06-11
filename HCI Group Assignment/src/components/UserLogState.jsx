@@ -1,3 +1,5 @@
+// Component for the log in log out button
+
 import {useState} from "react";
 
 export default function changeLogState () {
