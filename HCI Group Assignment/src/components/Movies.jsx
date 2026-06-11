@@ -1,3 +1,5 @@
+// Component for making a row of movie cards
+
 import MovieCards from "./MovieCards";
 
 export default function Movies({ movies, start, end, h }) {
