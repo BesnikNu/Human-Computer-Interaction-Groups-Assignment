@@ -1,3 +1,5 @@
+// Component for the main
+
 import Theme from "./components/Theme";
 import UserLogState from "./components/UserLogState.jsx";
 import logo from "./assets/logoLM.png";
@@ -7,6 +9,7 @@ import movies from "../src/movies.js";
 export default function App () {
     return (
       <>
+          {/* Nav Menu */}
         <header className="headerspec">
         <img className="hederimg" src={logo} />
         <div className="headerbutton flex">
@@ -18,6 +21,8 @@ export default function App () {
           </div>
         </div>
       </header>
+
+          {/* Category Selection */}
       <div className="containerstyle">
         <div>
           <select className="categorybuton fonts">
@@ -29,6 +34,8 @@ export default function App () {
             <option>Sci-Fi</option>
           </select>
         </div>
+
+          {/* Show 2 rows of movies */}
         <div className="moviemargin">
           <Movies movies={movies} start={0} end={7} h="Recent" />
           <Movies movies={movies} start={8} end={15} h="Featured" />
