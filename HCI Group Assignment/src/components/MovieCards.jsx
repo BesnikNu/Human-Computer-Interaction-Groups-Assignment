@@ -1,3 +1,5 @@
+// Component for making the movie cards
+
 export default function movie({ movie }) {
   return (
     <div className="movie">
