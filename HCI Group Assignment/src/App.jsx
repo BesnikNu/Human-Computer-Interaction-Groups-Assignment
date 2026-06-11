@@ -30,8 +30,8 @@ export default function App () {
           </select>
         </div>
         <div className="moviemargin">
-          <Movies movies={movies} />
-          <Movies movies={movies} />
+          <Movies movies={movies} start={0} end={7} h="Recent" />
+          <Movies movies={movies} start={8} end={15} h="Featured" />
         </div>
       </div>
       </>
