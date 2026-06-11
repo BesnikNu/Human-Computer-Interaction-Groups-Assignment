@@ -1,3 +1,5 @@
+// component that changes the theme colors
+
 import {useState} from "react";
 
 export default function changeTheme () {
