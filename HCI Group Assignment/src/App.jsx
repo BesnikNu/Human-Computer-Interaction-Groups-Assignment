@@ -1,4 +1,4 @@
-// Component for the main
+// Component for the main App
 
 import Theme from "./components/Theme";
 import UserLogState from "./components/UserLogState.jsx";
