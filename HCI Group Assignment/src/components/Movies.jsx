@@ -1,13 +1,15 @@
 import MovieCards from "./MovieCards";
 
-export default function Movies({ movies }) {
+export default function Movies({ movies, start, end, h }) {
+  let x = start;
+  let y = end;
   return (
     <>
       <div className="typeofmovie">
-        <h1 className="fonts">Featured</h1>
+        <h1 className="fonts">{h}</h1>
       </div>
       <div className="flex fonts">
-        {movies.slice(0, 7).map((movie, index) => (
+        {movies.slice(x, y).map((movie, index) => (
           <MovieCards key={index} movie={movie} />
         ))}
       </div>
